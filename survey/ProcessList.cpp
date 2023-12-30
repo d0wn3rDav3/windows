@@ -6,7 +6,7 @@ constexpr auto PID_LIST_SIZE = 1024;		// Global for the size of the list
 
 INT main()
 {
-// Setup Process Variables
+    // Setup Process Variables
     DWORD dwProcList[PID_LIST_SIZE] = { 0 };
     DWORD dwRealSize = 0;
     BOOL bResult = FALSE; // Return type of BOOL
