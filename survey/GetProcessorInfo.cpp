@@ -5,7 +5,7 @@
 
 int main()
 {
-    // Bring in the SYSTEM_INFO struct
+        // Bring in the SYSTEM_INFO struct
 	SYSTEM_INFO sysInfo = { 0 };
 
 	// Populate the sysInfo struct
